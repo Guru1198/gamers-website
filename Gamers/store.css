@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #220101;
+  --color-bg-variant: rgb(255, 123, 0);
+  --color-primary: #d40202;
+  --color-primary-variant: rgb(196, 95, 0);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-dark: #45434d;
+  --color-black: #0f0f1b;
+
+  /* --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6); */
+
+  --container-wdth-lg: 82%;
+  --container-wdth-md: 90%;
+  --container-wdth-sm: 92%;
+
+  --transition: all 400ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: var(--color-dark);
+  line-height: 1.7;
+  background: var(--color-black);
+  background-image: url("./assets/bgtexture7.png");
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-black);
+}
+h1 {
+  font-size: 4.4rem;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+.lead {
+  width: 63%;
+  line-height: 1.5;
+  margin: 0 auto 3rem;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+}
+.container {
+  width: var(--container-wdth-lg);
+  max-width: 1800px;
+  margin: 0 auto;
+}
+section {
+  padding: 6rem 0;
+  margin: 5rem 0;
+}
+.btn {
+  background: var(--color-black);
+  color: white;
+  font-weight: 500;
+  display: grid;
+  place-items: center;
+  width: fit-content;
+  padding: 0.8rem 1.6rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn:hover {
+  background: var(--color-light);
+  color: var(--color-black);
+}
+.btn-primary {
+  color: var(--color-white);
+  background: var(--color-primary);
+}
+.btn-secondary {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+.btn-secondary:hover {
+  color: var(--color-white);
+  background: var(--color-bg-variant);
+}
+.btn-primary:hover {
+  border-color: var(--color-primary);
+  color: var(--color-white);
+  background: var(--color-bg-variant);
+}
+.btn-lg {
+  padding: 1.1rem 2rem;
+  font-size: 1.2rem;
+}
+.store__container {
+  margin-top: 8rem;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 1fr;
+  padding: 1rem;
+}
+.store__container .menu__title {
+  color: var(--color-bg-variant);
+  margin: 1rem 0;
+}
+.games {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+.game {
+  margin: 0.3rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+  box-shadow: var(--color-primary) 0px 3px 6px, var(--color-primary) 0px 3px 6px;
+}
+.game img {
+  width: 15rem;
+  height: 10rem;
+  border-radius: 0.8rem;
+}
+.game__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color-bg-variant);
+}
+.game__title h4 {
+  color: var(--color-primary);
+}
+.game__action {
+  padding: 0 0 0.6rem;
+}
+.topNew {
+  display: block;
+  position: relative;
+}
+.store__menu-title {
+  font-size: 3rem;
+  margin: 1.2rem 0 2rem;
+  color: var(--color-bg-variant);
+}

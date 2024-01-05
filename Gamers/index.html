@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- swiperJS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- ICONSCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>gamersKE-HOME</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">
+          <h2>gamersKE</h2>
+        </a>
+
+        <ul class="nav__menu">
+          <li>
+            <a href="index.html">
+              <div class="nav__item active">
+                <i class="uil uil-home"></i>
+                <span class="nav__item-title">Home</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./store.html">
+              <div class="nav__item">
+                <i class="uil uil-store"></i>
+                <span class="nav__item-title">Store</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./tutorials.html">
+              <div class="nav__item">
+                <i class="uil uil-presentation-play"></i>
+                <span class="nav__item-title">Tutorials</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="nav__actionbuttons">
+          <a href="">
+            <span class="nav__cart">
+              <div class="nav__cart-counter">10</div>
+              <i class="uil uil-shopping-bag"></i>
+            </span>
+          </a>
+          <a href="login.html" class="btn btn-secondary">Login</a>
+          <a href="signup.html" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container header__container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://carousel-slider.uiinitiative.com/images/guardians-of-the-galaxy.jpg"
+              />
+              <div class="img__description">
+                <h3>Guardians Of The Galaxy</h3>
+                <p>
+                  A group of intergalactic criminals must pull together to stop
+                  a fanatical warrior with plans to purge the universe.
+                </p>
+                <a href="" class="btn btn-primary">Purchase Ksh.8000</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://carousel-slider.uiinitiative.com/images/justice-league.jpg"
+              />
+              <div class="img__description">
+                <h3>Justice League</h3>
+                <p>
+                  Determined to ensure Superman's ultimate sacrifice was not in
+                  vain, Bruce Wayne aligns forces with Diana Prince with plans
+                  to recruit...
+                </p>
+                <a href="" class="btn btn-primary">Purchase Ksh.8000</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://carousel-slider.uiinitiative.com/images/spider-man.jpg"
+              />
+              <div class="img__description">
+                <h3>Spider-Man: Far from Home</h3>
+                <p>
+                  Following the events of Avengers: Endgame (2019), Spider-Man
+                  must step up to take on new threats in a world that has
+                  changed forever.
+                </p>
+                <a href="" class="btn btn-primary">Purchase Ksh.8000</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </header>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

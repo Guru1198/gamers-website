@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ICONSCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>gamersKE-HOME</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">
+          <h2>gamersKE</h2>
+        </a>
+
+        <ul class="nav__menu">
+          <li>
+            <a href="index.html">
+              <div class="nav__item">
+                <i class="uil uil-home"></i>
+                <span class="nav__item-title">Home</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./store.html">
+              <div class="nav__item">
+                <i class="uil uil-store"></i>
+                <span class="nav__item-title">Store</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./tutorials.html">
+              <div class="nav__item">
+                <i class="uil uil-presentation-play"></i>
+                <span class="nav__item-title">Tutorials</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="nav__actionbuttons">
+          <a href="">
+            <span class="nav__cart">
+              <div class="nav__cart-counter">10</div>
+              <i class="uil uil-shopping-bag"></i>
+            </span>
+          </a>
+          <a href="login.html" class="btn btn-secondary">Login</a>
+          <a href="signup.html" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container login__container">
+      <form action="login.php" method="get">
+        <h2 class="login__title">LOGIN</h2>
+        <div class="login__input">
+          <input
+            class="input__field"
+            type="email"
+            name="email"
+            placeholder="Enter Email ID"
+          />
+        </div>
+        <div class="login__input">
+          <input
+            class="input__field"
+            type="password"
+            name="password"
+            placeholder="********"
+          />
+        </div>
+        <div class="login__input">
+          <button class="btn btn-primary" type="submit" name="submit">
+            LOGIN
+          </button>
+        </div>
+        <div class="login__input">
+          Don't have an account ?
+          <a class="alink" href="./signup.html"> SIGN-UP </a>
+        </div>
+      </form>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

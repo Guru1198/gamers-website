@@ -1,0 +1,36 @@
+.login__container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__container form {
+  margin-top: 20%;
+  width: 40%;
+  color: var(--color-bg-variant);
+  box-shadow: var(--color-primary) 0px 6px 12px -2px,
+    var(--color-primary) 0px 3px 7px -3px;
+  border-radius: 0.8rem;
+  padding: 1rem 0.5rem;
+}
+.login__title {
+  color: var(--color-bg-variant);
+  text-align: center;
+}
+.login__input {
+  width: 100%;
+}
+.input__field {
+  width: 100%;
+  padding: 0.8rem 0;
+  border: none;
+  margin: 1rem 0;
+  border-radius: 0.3rem;
+}
+.btn-primary {
+  margin: 0.5rem auto;
+}
+.alink {
+  color: var(--color-primary);
+}

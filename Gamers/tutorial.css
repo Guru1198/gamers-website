@@ -1,0 +1,52 @@
+.header__container {
+  width: 100%;
+  margin-top: 8rem;
+  display: block;
+  place-items: center;
+  color: var(--color-bg-variant);
+}
+.header__tutorial-menu {
+  width: 50%;
+}
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__list .list__item {
+  cursor: pointer;
+}
+.list__item:hover {
+  color: var(--color-primary);
+}
+.tutorial__container {
+  width: 100%;
+  display: block;
+  place-items: center;
+}
+.tutorials {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2;
+}
+.tutorial {
+  box-shadow: var(--color-primary) 0px 6px 12px -2px,
+    var(--color-primary) 0px 3px 7px -3px;
+  width: min-content;
+  border-radius: 0.8rem;
+}
+iframe {
+  border-radius: 0.5rem;
+}
+.tutorial__info {
+  text-align: center;
+  padding: 0.8rem;
+}
+.tutorial__info .tutorial__title {
+  color: var(--color-primary);
+}
+.tutorial__info .tutorial__description {
+  color: var(--color-bg-variant);
+}
