@@ -23,6 +23,12 @@ List the technologies and tools you used to build the website. For example:
 - CSS3
 - JavaScript
 
+## Screenshots
+![Screenshot 2024-01-05 231331](https://github.com/Guru1198/gamers-website/assets/99437275/5ff86c11-3fd7-4a71-bbb2-9aa7c7a93908)
+![Screenshot 2024-01-05 231232](https://github.com/Guru1198/gamers-website/assets/99437275/638ca3ff-a9ee-4bfb-9f5a-a021ed82d7ba)
+![Screenshot 2024-01-05 230414](https://github.com/Guru1198/gamers-website/assets/99437275/80c68b31-a500-4c79-89e9-5ecbc5a98958)
+
+
 ## Getting Started
 
 Provide instructions on how to get a copy of your project up and running on their local machine. Include any prerequisites, installation steps, or configuration details.
