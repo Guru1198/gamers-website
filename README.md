@@ -2,13 +2,10 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Overview
-
-Briefly describe your gamer website. What's its purpose? What can users find on the site? This section should give readers a quick understanding of what your project is about.
 
 ## Features
 
-Highlight the key features of your gamer website. This could include things like:
+ key features of the gamer website include things like:
 
 - Game prices
 - Game tutorials
@@ -17,7 +14,7 @@ Highlight the key features of your gamer website. This could include things like
 
 ## Technologies Used
 
-List the technologies and tools you used to build the website. For example:
+List the technologies and tools used to build the website are:
 
 - HTML5
 - CSS3
@@ -31,7 +28,7 @@ List the technologies and tools you used to build the website. For example:
 
 ## Getting Started
 
-Provide instructions on how to get a copy of your project up and running on their local machine. Include any prerequisites, installation steps, or configuration details.
+ instructions on how to get a copy of this project up and running on your local machine.
 
 ```bash
 # Clone the repository
